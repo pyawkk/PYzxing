@@ -16,7 +16,6 @@
 		4C6607351AC3AD7F00774C02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6607331AC3AD7F00774C02 /* LaunchScreen.xib */; };
 		4C6607411AC3AD7F00774C02 /* PYzxingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6607401AC3AD7F00774C02 /* PYzxingTests.m */; };
 		4C6609331AC3C77B00774C02 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6609321AC3C77B00774C02 /* 11.jpg */; };
-		4C6609351AC3C78500774C02 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6609341AC3C78500774C02 /* 22.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		4C66073F1AC3AD7F00774C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6607401AC3AD7F00774C02 /* PYzxingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYzxingTests.m; sourceTree = "<group>"; };
 		4C6609321AC3C77B00774C02 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
-		4C6609341AC3C78500774C02 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
 		E393C2EF9838B74CD93F73A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C8B0166759BB8D071D48F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +103,6 @@
 				4C6607291AC3AD7F00774C02 /* AppDelegate.m */,
 				4C66072B1AC3AD7F00774C02 /* ViewController.h */,
 				4C66072C1AC3AD7F00774C02 /* ViewController.m */,
-				4C6609341AC3C78500774C02 /* 22.jpg */,
 				4C6609321AC3C77B00774C02 /* 11.jpg */,
 				4C66072E1AC3AD7F00774C02 /* Main.storyboard */,
 				4C6607311AC3AD7F00774C02 /* Images.xcassets */,
@@ -231,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6609351AC3C78500774C02 /* 22.jpg in Resources */,
 				4C6607301AC3AD7F00774C02 /* Main.storyboard in Resources */,
 				4C6607351AC3AD7F00774C02 /* LaunchScreen.xib in Resources */,
 				4C6607321AC3AD7F00774C02 /* Images.xcassets in Resources */,
