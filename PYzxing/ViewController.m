@@ -14,10 +14,8 @@
 
 
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>{
-    
     NSMutableSet *qrReader;
     BOOL scanningQR;
-    
 }
 
 @property (weak, nonatomic) IBOutlet UIImageView *myPIC;
@@ -31,7 +29,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     UIButton *button3 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button3 setTitle:@"从相册选择" forState:UIControlStateNormal];
-    [button3 setFrame:CGRectMake(50, 300, 140, 50)];
+    [button3 setFrame:CGRectMake(100, 270, 140, 50)];
     [button3 addTarget:self action:@selector(pressButton3:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button3];
 }
@@ -111,13 +109,24 @@
 {
     UIImage *image = [info objectForKey:@"UIImagePickerControllerEditedImage"];
     [self dismissViewControllerAnimated:YES completion:^{
-//        [self decodeImage:image];
         [self getURLWithImage:image];
     }
     ];
 
 }
 
+- (IBAction)writePIC:(id)sender {
+    
+    NSString *strPath = [[NSBundle mainBundle] pathForResource:@"11.jpg" ofType:nil];
+    
+    UIImage *image = [UIImage imageWithContentsOfFile:strPath];
+    
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    
+    UIAlertView *alter =  [[UIAlertView alloc] initWithTitle:@"写入成功" message:nil delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+    [alter show];
+    
+}
 
 
 - (void)didReceiveMemoryWarning {

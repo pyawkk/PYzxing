@@ -20,12 +20,21 @@
                                 <rect key="frame" x="60" y="15" width="200" height="200"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEW-4X-2Qf">
-                                <rect key="frame" x="103" y="418" width="95" height="30"/>
+                                <rect key="frame" x="106" y="354" width="95" height="30"/>
                                 <state key="normal" title="解析">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="encode:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nZl-Pf-Rpu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nus-pB-Qrf">
+                                <rect key="frame" x="106" y="411" width="105" height="30"/>
+                                <state key="normal" title="写入图片到相册">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="writePIC:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QbK-gj-s8W"/>
                                 </connections>
                             </button>
                         </subviews>
