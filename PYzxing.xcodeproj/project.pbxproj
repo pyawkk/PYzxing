@@ -16,6 +16,7 @@
 		4C6607351AC3AD7F00774C02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6607331AC3AD7F00774C02 /* LaunchScreen.xib */; };
 		4C6607411AC3AD7F00774C02 /* PYzxingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6607401AC3AD7F00774C02 /* PYzxingTests.m */; };
 		4C6609331AC3C77B00774C02 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6609321AC3C77B00774C02 /* 11.jpg */; };
+		4CE6C91C1B69C813002DB1CF /* NSString+ZXingQRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6C91B1B69C813002DB1CF /* NSString+ZXingQRImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		4C66073F1AC3AD7F00774C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C6607401AC3AD7F00774C02 /* PYzxingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYzxingTests.m; sourceTree = "<group>"; };
 		4C6609321AC3C77B00774C02 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		4CE6C91A1B69C813002DB1CF /* NSString+ZXingQRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXingQRImage.h"; sourceTree = "<group>"; };
+		4CE6C91B1B69C813002DB1CF /* NSString+ZXingQRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXingQRImage.m"; sourceTree = "<group>"; };
 		E393C2EF9838B74CD93F73A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C8B0166759BB8D071D48F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +106,8 @@
 				4C6607291AC3AD7F00774C02 /* AppDelegate.m */,
 				4C66072B1AC3AD7F00774C02 /* ViewController.h */,
 				4C66072C1AC3AD7F00774C02 /* ViewController.m */,
+				4CE6C91A1B69C813002DB1CF /* NSString+ZXingQRImage.h */,
+				4CE6C91B1B69C813002DB1CF /* NSString+ZXingQRImage.m */,
 				4C6609321AC3C77B00774C02 /* 11.jpg */,
 				4C66072E1AC3AD7F00774C02 /* Main.storyboard */,
 				4C6607311AC3AD7F00774C02 /* Images.xcassets */,
@@ -285,6 +290,7 @@
 				4C66072D1AC3AD7F00774C02 /* ViewController.m in Sources */,
 				4C66072A1AC3AD7F00774C02 /* AppDelegate.m in Sources */,
 				4C6607271AC3AD7F00774C02 /* main.m in Sources */,
+				4CE6C91C1B69C813002DB1CF /* NSString+ZXingQRImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PYzxing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -419,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PYzxing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

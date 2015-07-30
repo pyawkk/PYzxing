@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h> 
 
 //#import "ZXQRCodeReader.h"
+#import "NSString+ZXingQRImage.h"
 
 
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>{
@@ -19,6 +20,7 @@
 }
 
 @property (weak, nonatomic) IBOutlet UIImageView *myPIC;
+@property (weak, nonatomic) IBOutlet UILabel *qrString;
 
 @end
 
@@ -64,6 +66,13 @@
     }
 }
 
+- (IBAction)QRcode:(id)sender {
+    
+    UIImage *qrImage = [NSString becomeQRCodeWithQRstring:_qrString.text withWidth:300 withHight:300];
+    _myPIC.image = qrImage;
+    
+    
+}
 
 
 
